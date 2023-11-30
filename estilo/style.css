@@ -54,7 +54,7 @@ header > h1 {
     font-size: 3.4em;
     color: rgb(255, 255, 255);
     font-weight: normal;
-    margin-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 header > p {
@@ -62,7 +62,6 @@ header > p {
     font-weight: normal;
     max-width: 550px;
     margin: auto;
-
 }
 
 nav {
@@ -72,9 +71,7 @@ nav {
 }
 
 nav > a {
-    padding: 15px;
-    padding-top: 7px;
-    padding-bottom: 5px;
+    padding: 30px;
     color:white;
     font-family: var(--fonte-destaque);
     font-size: 21px;

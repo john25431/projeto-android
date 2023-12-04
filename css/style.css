@@ -71,8 +71,8 @@ nav {
 }
 
 nav > a {
-    padding: 0px 30px 0px 0px;
-    margin: 25px;
+    padding: 0px 5px 0px 25px;
+    margin: 10px;
     color:white;
     font-family: var(--fonte-destaque);
     font-size: 23px;

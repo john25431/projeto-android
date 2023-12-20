@@ -11,6 +11,9 @@
     font-weight: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap');
+
+
 
 :root {
     --cor00:#84e1ad;
@@ -47,7 +50,7 @@ header {
     font-family: var(--fonte-destaque);
     padding: 40px;
     text-align: center;
-    box-shadow: -20px 19px 20px 20px rgb(0, 0, 0);
+    box-shadow: -19px 20px 20px 20px rgb(0, 0, 0);
 }
 
 header > h1 {
@@ -71,8 +74,8 @@ nav {
 }
 
 nav > a {
-    padding: 0px 5px 0px 25px;
-    margin: 10px;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 56px 10px 41px;
     color:white;
     font-family: var(--fonte-destaque);
     font-size: 23px;
@@ -87,6 +90,7 @@ nav > a:hover {
     background-color: var(--cor00);
     color: var(--cor5);
     padding: 16px 16px 10px 16px;
+    margin: 10px;
 
 }
 
@@ -215,7 +219,8 @@ aside >ul {
 footer {
     background-color: var(--cor5);
     color: white;
-    font-family: var(--fonte-padrao);
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
     font-size: 16px;
     text-align: center;
     max-width: 400px;
@@ -227,12 +232,12 @@ footer {
 }
 
 footer a {
-    color: var(--cor1);
+    color: var(--cor);
     font-weight: bold;
     text-decoration: none;
     border-radius: 5px;
 }
 
 footer a:hover {
-    text-decoration: underline;
+    color: #2727FF;
 }

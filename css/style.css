@@ -16,7 +16,7 @@
 
 
 :root {
-    --cor00:#84e1ad;
+    --cor00: #84e1ad;
     --cor0: #ebe5c5;
     --cor1: #83e1ad;
     --cor2: #3ddc84;
@@ -57,16 +57,16 @@ header {
 }
 
 
-header>h1 {
-    font-size: 3.4em;
+header > h1 {
+    font-size: 4em;
     color: rgb(255, 255, 255);
     font-weight: normal;
     padding-bottom: 20px;
 }
 
 
-header>p {
-    font-size: 1.7em;
+header > p {
+    font-size: 1.5em;
     font-weight: normal;
     max-width: 550px;
     margin: auto;
@@ -80,26 +80,23 @@ nav {
 }
 
 
-nav>a {
-    padding: 0px 0px 0px 0px;
-    margin: 10px 56px 10px 41px;
+nav > a {
+    padding: 5px;
+    margin: 10px 35.6px 10px 10px;
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 23px;
     text-decoration: none;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    transition-duration: 0.2s;
-
+    transition-duration: 0.3s;
 }
 
 
-nav>a:hover {
+nav > a:hover {
     background-color: var(--cor00);
     color: var(--cor5);
-    padding: 16px 16px 10px 16px;
-    margin: 10px;
-
+    padding: 10px 5px 10px 5px;
 }
 
 
